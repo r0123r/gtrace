@@ -186,7 +186,7 @@ func (f *File) Visit(node ast.Node) ast.Visitor {
 
 var crc int
 
-const dinproc = `"kopex/gtrace/dinproc"`
+const dinproc = `"github.com/r0123r/gtrace/dinproc"`
 
 func annotate(name string) bool {
 	fset := token.NewFileSet()
